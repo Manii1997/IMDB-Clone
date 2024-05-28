@@ -1,12 +1,11 @@
 "use client";
 
-import React from "react";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 
-const error = () => {
+const ErrorComponent = () => {
   useEffect(() => {
-    console.log(error);
-  }, [error]);
+    console.log();
+  }, []);
   return (
     <div className="text-center">
       <h1>Something went, wrong. please try again later</h1>
@@ -17,4 +16,4 @@ const error = () => {
   );
 };
 
-export default error;
+export default ErrorComponent;

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const loading = () => {
+const Loading = () => {
   return (
     <div className="flex justify-center">
       <Image src="spinner.svg" width={200} height={200} alt="loading..." />
@@ -9,4 +9,4 @@ const loading = () => {
   );
 };
 
-export default loading;
+export default Loading;
